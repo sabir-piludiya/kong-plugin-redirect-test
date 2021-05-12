@@ -10,7 +10,7 @@ description = {
 build = {
    type = "builtin",
    modules = {
-      ["kong.plugins.redirect.handler"] = "src/handler.lua",
-      ["kong.plugins.redirect.schema"] = "src/schema.lua"
+      ["kong.plugins.kong-plugin-redirect-test.handler"] = "src/handler.lua",
+      ["kong.plugins.kong-plugin-redirect-test.schema"] = "src/schema.lua"
    }
 }
